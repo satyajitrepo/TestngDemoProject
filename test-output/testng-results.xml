@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="12" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="36" started-at="2020-07-06T08:46:58Z" finished-at="2020-07-06T08:46:58Z">
+    <groups>
+      <group name="smoke">
+        <method signature="MyFifthTestNgClass.HomeLoanLogin()[pri:6, instance:com.myapp.MyFifthTestNgClass@548b7f67]" name="HomeLoanLogin" class="com.myapp.MyFifthTestNgClass"/>
+        <method signature="MyFirstTestNgClass.method1()[pri:1, instance:com.myapp.MyFirstTestNgClass@402f32ff]" name="method1" class="com.myapp.MyFirstTestNgClass"/>
+        <method signature="MyFourthTestNgClass.method7()[pri:7, instance:com.myapp.MyFourthTestNgClass@6d8a00e3]" name="method7" class="com.myapp.MyFourthTestNgClass"/>
+        <method signature="MySecondTestNgClass.method3()[pri:3, instance:com.myapp.MySecondTestNgClass@573f2bb1]" name="method3" class="com.myapp.MySecondTestNgClass"/>
+        <method signature="MyThirdTestNgClass.method5()[pri:5, instance:com.myapp.MyThirdTestNgClass@5ae9a829]" name="method5" class="com.myapp.MyThirdTestNgClass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="36" started-at="2020-07-06T08:46:58Z" finished-at="2020-07-06T08:46:58Z">
+      <class name="com.myapp.MyFourthTestNgClass">
+        <test-method status="PASS" signature="method7()[pri:7, instance:com.myapp.MyFourthTestNgClass@6d8a00e3]" name="method7" duration-ms="1" started-at="2020-07-06T08:46:58Z" finished-at="2020-07-06T08:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+      </class> <!-- com.myapp.MyFourthTestNgClass -->
+      <class name="com.myapp.MyFifthTestNgClass">
+        <test-method status="PASS" signature="HomeLoanLogin()[pri:6, instance:com.myapp.MyFifthTestNgClass@548b7f67]" name="HomeLoanLogin" duration-ms="1" started-at="2020-07-06T08:46:58Z" finished-at="2020-07-06T08:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanLogin -->
+      </class> <!-- com.myapp.MyFifthTestNgClass -->
+      <class name="com.myapp.MySecondTestNgClass">
+        <test-method status="PASS" signature="method3()[pri:3, instance:com.myapp.MySecondTestNgClass@573f2bb1]" name="method3" duration-ms="1" started-at="2020-07-06T08:46:58Z" finished-at="2020-07-06T08:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- com.myapp.MySecondTestNgClass -->
+      <class name="com.myapp.MyThirdTestNgClass">
+        <test-method status="PASS" signature="method5()[pri:5, instance:com.myapp.MyThirdTestNgClass@5ae9a829]" name="method5" duration-ms="1" started-at="2020-07-06T08:46:58Z" finished-at="2020-07-06T08:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+      </class> <!-- com.myapp.MyThirdTestNgClass -->
+      <class name="com.myapp.MyFirstTestNgClass">
+        <test-method status="PASS" signature="method1()[pri:1, instance:com.myapp.MyFirstTestNgClass@402f32ff]" name="method1" duration-ms="8" started-at="2020-07-06T08:46:58Z" finished-at="2020-07-06T08:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- com.myapp.MyFirstTestNgClass -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Loan Department -->
+</testng-results>
